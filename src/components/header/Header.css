@@ -1,0 +1,142 @@
+header{
+    padding: 10px 6%;
+    background-color: var(--color-bg-white);
+    position: fixed;
+    width: 100%;
+    scroll-margin-bottom: 200px;
+    top: 0px;
+    z-index: 10000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand{
+    font-size: 13px;
+    border: 1px solid var(--color-coal-black);
+    padding: 5px 25px;
+    border-radius: 18px;
+    display: inline-block;
+}
+
+header .navbar-nav .nav-item a {
+    text-decoration: none;      
+    color: var(--color-coal-black);            
+    font-size: 1rem;        
+    font-weight: 400;
+    transition: color 0.15s ease;
+}
+
+header .navbar-nav .nav-item a:hover,
+header .navbar-nav .nav-item a:focus {
+    text-decoration: none;
+    color: var(--color-purple);
+    outline: none;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 0 0 35%;
+    margin: 0 auto;
+}
+
+.nav-item{
+    padding: 5px 0;
+}
+
+.header-icon-container{
+    width: clamp(90px, 12%, 9vw);
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-icon-container i{
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.cart{
+    position: relative;
+}
+
+.cart::after{
+    content:"3";
+    position: absolute;
+    top:-5px;
+    right: -15px;
+    background-color: var(--color-purple);
+    color: var(--color-white);
+    border-radius: 50%;
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+/* Responsive header image styles */
+nav img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+/* Mobile screens */
+@media (max-width: 512px) {
+    nav img {
+        max-width: 100px;
+        height: auto;
+    }
+}
+
+@media (min-width: 513px) and (max-width: 991px) {
+    nav img {
+        max-width: 160px;
+        height: auto;
+    }
+}
+
+/* Desktop screens */
+@media (min-width: 992px) {
+    nav img {
+        max-width: 200px;
+        height: auto;
+    }
+}
+
+/* Large desktop screens */
+@media (min-width: 1200px) {
+    nav img {
+        max-width: 250px;
+        height: auto;
+    }
+}
+
+
+.navbar-toggler,
+.navbar-toggler:hover,
+.navbar-toggler:active,
+.navbar-toggler:focus,
+.navbar-toggler:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    background: transparent !important;
+    -webkit-appearance: none;
+}
+
+/* also ensure the toggler icon itself has no focus ring */
+.navbar-toggler .navbar-toggler-icon,
+.navbar-toggler .navbar-toggler-icon:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+
