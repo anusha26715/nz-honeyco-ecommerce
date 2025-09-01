@@ -1,5 +1,5 @@
 import ProductCarousel from "../ProductCarousal/ProductCarousal";
-import Info from "../Info/info";
+import Info from "../Info/Info";
 import InfoPopover from "../InfoPopover/InfoPopover";
 import "./Home.css";
 
@@ -130,7 +130,7 @@ const Home = () => {
               <img src="/Label-paints-1.png" alt="Honeyco." />
             </div>
           </div>
-          
+
           <Info />
         </div>
       </div>
