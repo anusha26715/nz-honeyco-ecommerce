@@ -1,0 +1,170 @@
+.btn-container{
+    background-color: var(--color-bg-white);
+    padding: 20px;
+    border-radius:15px;
+}
+.btn-group{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 10px;
+}
+
+.btn-group button>span{
+    font-size: 12px;
+    max-width: 80px;
+}
+
+.purchase,.subscribe{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.purchase{
+    color: var(--color-white);
+}
+
+.subscribe{
+    color: var(--color-coal-black);
+    background-color: var(--color-white);
+}
+
+.question-text{
+    font-size: 12px;
+}
+
+.bundle-container{
+    background-color: var(--color-bg-white);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.bundle-img-text{
+    position: relative;
+}
+
+.bundle-img-text,.bundle-img-text button{
+    font-size: clamp(6px,1vw,10px);
+    text-align: center;
+}
+
+.plus{
+    position: absolute;
+    top: 25%;
+    right: -5%;
+    font-size: clamp(8px,2vw,14px);
+    font-weight: 600;
+    color: var(--color-coal-black);
+}
+
+.bundle-price span:nth-child(1) {
+  text-decoration: line-through;
+  font-size: clamp(5px,2vw,11px);
+}
+
+.bundle-price span:nth-child(2) {
+  font-size: clamp(8px,2.5vw,14px);
+}
+
+.bundle-price span:nth-child(3) {
+  font-size: clamp(5px,2vw,10px);
+  color: var(--color-green);
+}
+
+.bundle-cart-btn{
+    font-size: clamp(8px,1.5vw,16px);
+}
+
+.reward-text strong{
+    background-color: var(--color-bg-white);
+    color: var(--color-purple);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.delivery p{
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+.pay-text p:nth-child(2){
+    font-size: 12px;
+}
+
+.umf-scale-container {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+
+.umf-scale {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  position: relative;
+}
+
+.umf-scale span {
+  position: relative;
+  font-size: 12px;
+  cursor: default;
+}
+
+.umf-scale span::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background-color: var(--clr);
+  margin-top: 4px;
+  border-radius: 2px;
+}
+
+.umf-scale .active {
+  font-weight: bold;
+  color: var(--clr);
+}
+
+.umf-scale .active::after {
+  height: 5px;
+}
+
+.taste-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6px;
+  font-size: 12px;
+}
+
+.taste-profile .line {
+  flex: 1;
+  height: 3px;
+  background: linear-gradient(
+    to right,
+    var(--color-orange),
+    var(--color-red),
+    var(--color-pink),
+    var(--color-purple),
+    var(--color-blue),
+    var(--color-green),
+    var(--color-navy)
+  );
+  margin: 0 8px;
+  position: relative;
+  border-radius: 2px;
+}
+
+.taste-profile .dot {
+  width: 12px;
+  height: 12px;
+  background-color: #333;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%; /* middle by default */
+  transform: translate(-50%, -50%);
+}

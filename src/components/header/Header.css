@@ -1,9 +1,8 @@
 header{
-    padding: 10px 6%;
+    padding: 0 6%;
     background-color: var(--color-bg-white);
     position: fixed;
     width: 100%;
-    scroll-margin-bottom: 200px;
     top: 0px;
     z-index: 10000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -132,7 +131,6 @@ nav img {
     -webkit-appearance: none;
 }
 
-/* also ensure the toggler icon itself has no focus ring */
 .navbar-toggler .navbar-toggler-icon,
 .navbar-toggler .navbar-toggler-icon:focus {
     box-shadow: none !important;

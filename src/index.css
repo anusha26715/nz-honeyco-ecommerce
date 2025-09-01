@@ -10,4 +10,10 @@
   --color-bg-white: #f8f6f6;
   --color-purple:rgb(162, 8, 162);
   --color-coal-black: rgb(44, 43, 43);
+  --color-orange: rgb(255, 87, 34);
+  --color-red: rgb(255, 0, 0);
+  --color-pink: rgb(232, 19, 193);
+  --color-blue: rgb(19, 132, 232);
+  --color-green: rgb(19, 232, 132);
+  --color-navy: rgb(22, 28, 107);
 }

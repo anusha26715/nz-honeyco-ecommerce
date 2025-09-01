@@ -1,0 +1,43 @@
+
+.custom-popover {
+  max-width: fit-content !important; /* default Bootstrap max is 276px */
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 0.65rem;
+  background-color: #fff;
+  padding: 0; 
+}
+
+/* Header */
+.custom-popover .popover-header {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  font-size: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+  border-radius: 12px 12px 0 0;
+  padding: 0.75rem 1rem;
+}
+
+/* Body */
+.custom-popover .popover-body {
+  padding: 1rem;
+  line-height: 1.4;
+  color: #333;
+}
+
+/* Info button */
+.info-btn {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #495057;
+  background-color: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.info-btn:hover {
+  background-color: #f1f3f5;
+  border-color: #adb5bd;
+  color: #212529;
+}

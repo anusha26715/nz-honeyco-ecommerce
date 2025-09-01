@@ -1,0 +1,25 @@
+.hover-container{
+    border-radius: 8px;
+    padding: 10px;
+    background-color: var(--color-bg-white);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.hover-text{
+    font-size:12px;
+}
+
+.level{
+    position: relative;
+}
+
+.level::after{
+    content:"";
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    background-color: currentColor;
+    height: 3px;
+    width: 120%;
+}
