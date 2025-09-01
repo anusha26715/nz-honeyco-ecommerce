@@ -25,7 +25,7 @@ const Header = () => {
                 <Link to="">Explore</Link>
                 </li>
             </ul>
-            <img src="public/new-zealand-honey-logo.png" className='d-none d-lg-block' alt="Newzealand Honeyco." />
+            <img src="/new-zealand-honey-logo.png" className='d-none d-lg-block' alt="Newzealand Honeyco." />
 
             <ul className="navbar-nav mb-lg-0">
                 <li className="nav-item">
