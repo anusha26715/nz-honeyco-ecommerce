@@ -9,7 +9,7 @@ const Header = () => {
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
             </button>
-            <img src="public/new-zealand-honey-logo.png" className='d-inline-block d-lg-none' alt="Newzealand Honeyco." />
+            <img src="/new-zealand-honey-logo.png" className='d-inline-block d-lg-none' alt="Newzealand Honeyco." />
             <div className="header-icon-container d-lg-none">
                 <i className="bi bi-person"></i>
                 <i className="bi bi-search"></i>
